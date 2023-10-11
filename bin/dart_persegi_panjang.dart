@@ -11,6 +11,6 @@ void main(List<String> arguments) {
 
   //fungsi keliling persegi panjang
   int kelilingPersegiPanjang(){{
-  return 2 *(panjang + lebar)};
+  return 2 *(panjang + lebar);
   }
 }
