@@ -4,6 +4,7 @@ import 'package:dart_persegi_panjang/dart_persegi_panjang.dart'
 void main(List<String> arguments) {
   print('Hello world: ${dart_persegi_panjang.calculate()}!');
 
+  //fungsi louas persegi panjang
   int luasPersegiPanjang() {
     return panjang * lebar;
   }
