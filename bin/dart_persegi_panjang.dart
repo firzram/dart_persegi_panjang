@@ -1,16 +1,16 @@
-import 'package:dart_persegi_panjang/dart_persegi_panjang.dart'
-    as dart_persegi_panjang;
+class PersegiPanjang {
+  int panjang;
+  int lebar;
 
-void main(List<String> arguments) {
-  print('Hello world: ${dart_persegi_panjang.calculate()}!');
+  PersegiPanjang(this.panjang, this.lebar);
 
-  //fungsi louas persegi panjang
+  //fungsi luas persegi panjang
   int luasPersegiPanjang() {
     return panjang * lebar;
   }
 
   //fungsi keliling persegi panjang
-  int kelilingPersegiPanjang(){{
-  return 2 *(panjang + lebar);
+  int kelilingPersegiPanjang() {
+    return 2 * (panjang + lebar);
   }
 }
