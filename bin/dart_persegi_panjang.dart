@@ -4,7 +4,7 @@ class PersegiPanjang {
 
   PersegiPanjang(this.panjang, this.lebar);
 
-  //fungsi louas persegi panjang
+  //fungsi luas persegi panjang
   int luasPersegiPanjang() {
     return panjang * lebar;
   }
